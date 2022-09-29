@@ -4,11 +4,15 @@ module.exports = {
   lastUpdated: true,
   themeConfig: {
     nav: [
-        { text: "首页", link: "/" }, 
-        {
-            text: "飞书",
-            link: "/started",
-          },
-    ]
-  }
+      { text: "首页", link: "/" },
+      {
+        text: "飞书",
+        link: "/started",
+      },
+      {
+        text: "测试",
+        link: "/second",
+      },
+    ],
+  },
 };
