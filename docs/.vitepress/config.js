@@ -10,7 +10,7 @@ module.exports = {
         link: "/started",
       },
       {
-        text: "测试",
+        text: "代码混淆",
         link: "/second",
       },
     ],
