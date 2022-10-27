@@ -15,10 +15,10 @@ features:
   - icon: ⚡️
     title: 这是一个闪电图标
     details: wawawa
-  - icon:  
+  - icon:  🌩
     title: 这是一个手掌图标
     details: good...
-  - icon:  ️
+  - icon:  🍚
     title: 这是一个修理图标
     details: cocococo
 ---
