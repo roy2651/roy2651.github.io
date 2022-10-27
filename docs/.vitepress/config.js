@@ -1,6 +1,7 @@
 module.exports = {
   title: "十块钱",
   description: "十块钱的博客",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   lastUpdated: true,
   themeConfig: {
     nav: [
