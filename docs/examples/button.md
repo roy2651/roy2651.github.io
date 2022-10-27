@@ -8,11 +8,13 @@
 
 <script lang="ts">
 import { defineComponent, reactive } from 'vue'
+import { ElMessage,Button } from 'element-plus'
+
 
 export default defineComponent({
   setup () {
     function alert () {
-      window.alert('1234')
+      ElMessage('this is a message.')
     }
     return {
       alert
@@ -23,24 +25,24 @@ export default defineComponent({
 
 ## 代码示例
 
-```vue
+```html
 <div>
   <el-button type="primary" @click="alert">按钮</el-button>
 </div>
 
 <script lang="ts">
-import { defineComponent, reactive } from "vue";
+  import { defineComponent, reactive } from "vue";
+  import { ElMessage, Button } from "element-plus";
 
-export default defineComponent({
-  setup() {
-    function alert() {
-      window.alert("1234");
-    }
-    return {
-      alert,
-    };
-  },
-});
+  export default defineComponent({
+    setup() {
+      function alert() {
+        ElMessage("this is a message.");
+      }
+      return {
+        alert,
+      };
+    },
+  });
 </script>
-
 ```

@@ -51,8 +51,13 @@ module.exports = {
       ],
       "/examples/": [
         {
-          text: "button",
-          link: "/examples/button",
+          text: "组件",
+          items: [
+            {
+              text: "button",
+              link: "/examples/button",
+            },
+          ],
         },
       ],
     },
