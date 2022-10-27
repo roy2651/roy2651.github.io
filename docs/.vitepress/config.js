@@ -5,7 +5,17 @@ module.exports = {
   lastUpdated: true,
   themeConfig: {
     logo: "/logo.png",
-    nav: [{ text: "首页", link: "/" }],
+    nav: [
+      { text: "首页", link: "/" },
+      { text: "飞书", link: "/articles/feishu" },
+      {
+        text: "Node",
+        items: [
+          { text: "代码混淆", link: "/articles/obscure" },
+          { text: "Docker部署", link: "/articles/docker" },
+        ],
+      },
+    ],
     socialLinks: [
       { icon: "github", link: "https://github.com/roy2651" },
       { icon: "twitter", link: "https://twitter.com/roy2651" },

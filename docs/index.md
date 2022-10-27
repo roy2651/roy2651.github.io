@@ -2,12 +2,7 @@
 layout: home
 
 hero:
-  name: 十块钱的博客
   text: 还没有完全弄好.
-  tagline: 帅气又迷人的小月
-  image:
-    src: /logo.png
-    alt: skg
   actions:
     - theme: brand
       text: 飞书测试
