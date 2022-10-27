@@ -4,19 +4,36 @@ module.exports = {
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   lastUpdated: true,
   themeConfig: {
-    nav: [
-      { text: "首页", link: "/" },
+    logo: "/logo.png",
+    nav: [{ text: "首页", link: "/" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/roy2651" },
+      { icon: "twitter", link: "https://twitter.com/roy2651" },
+    ],
+  },
+  sidebar: {
+    "/articles/": [
       {
-        text: "飞书",
-        link: "/started",
+        text: "随笔杂想",
+        items: [
+          {
+            text: "飞书配置",
+            link: "/articles/feishu",
+          },
+        ],
       },
       {
-        text: "代码混淆",
-        link: "/second",
-      },
-      {
-        text: "docker部署",
-        link: "/docker",
+        text: "NodeJS教程",
+        items: [
+          {
+            text: "代码混淆",
+            link: "/articles/obscure",
+          },
+          {
+            text: "docker部署",
+            link: "/articles/docker",
+          },
+        ],
       },
     ],
   },
