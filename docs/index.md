@@ -12,7 +12,7 @@ hero:
       link: https://gitee.com/roy2651
 
 features:
-  - icon: ⚡️
+  - icon: 🌩
     title: 这是一个闪电图标
     details: wawawa
   - icon:  🌩

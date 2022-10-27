@@ -15,6 +15,10 @@ module.exports = {
           { text: "Docker部署", link: "/articles/docker" },
         ],
       },
+      {
+        text: "Element",
+        link: "/examples/button",
+      },
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/roy2651" },
@@ -43,6 +47,12 @@ module.exports = {
               link: "/articles/docker",
             },
           ],
+        },
+      ],
+      "/examples/": [
+        {
+          text: "button",
+          link: "/examples/button",
         },
       ],
     },
