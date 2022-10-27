@@ -13,6 +13,10 @@ module.exports = {
         text: "代码混淆",
         link: "/second",
       },
+      {
+        text: "docker部署",
+        link: "/docker",
+      },
     ],
   },
 };
