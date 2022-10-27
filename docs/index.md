@@ -2,23 +2,23 @@
 layout: home
 
 hero:
-  text: 还没有完全弄好.
+  text: 十块钱的个人博客
   actions:
     - theme: brand
-      text: 飞书测试
-      link: /articles/feishu
+      text: 开始
+      link: /examples/button
     - theme: alt
-      text: View on Gitee
+      text: 个人Gitee
       link: https://gitee.com/roy2651
 
 features:
   - icon: 🌩
     title: 这是一个闪电图标
-    details: wawawa
-  - icon:  🌩
-    title: 这是一个手掌图标
-    details: good...
-  - icon:  🍚
-    title: 这是一个修理图标
-    details: cocococo
+    details: 占位...
+  - icon: 🌩
+    title: 这是一个云图标
+    details: 占位...
+  - icon: 🍚
+    title: 这是一个吃饭图标
+    details: 占位...
 ---

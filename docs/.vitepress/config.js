@@ -7,7 +7,7 @@ module.exports = {
     logo: "/logo.png",
     nav: [
       { text: "首页", link: "/" },
-      { text: "飞书", link: "/articles/feishu" },
+      { text: "飞书", link: "/notes/feishu" },
       {
         text: "Node",
         items: [
@@ -26,15 +26,6 @@ module.exports = {
     ],
     sidebar: {
       "/articles/": [
-        {
-          text: "随笔杂想",
-          items: [
-            {
-              text: "飞书配置",
-              link: "/articles/feishu",
-            },
-          ],
-        },
         {
           text: "NodeJS教程",
           items: [
@@ -56,6 +47,17 @@ module.exports = {
             {
               text: "button",
               link: "/examples/button",
+            },
+          ],
+        },
+      ],
+      "/notes/": [
+        {
+          text: "随笔杂想",
+          items: [
+            {
+              text: "飞书配置",
+              link: "/notes/feishu",
             },
           ],
         },
