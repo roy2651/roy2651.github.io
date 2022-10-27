@@ -20,31 +20,31 @@ module.exports = {
       { icon: "github", link: "https://github.com/roy2651" },
       { icon: "twitter", link: "https://twitter.com/roy2651" },
     ],
-  },
-  sidebar: {
-    "/articles/": [
-      {
-        text: "随笔杂想",
-        items: [
-          {
-            text: "飞书配置",
-            link: "/articles/feishu",
-          },
-        ],
-      },
-      {
-        text: "NodeJS教程",
-        items: [
-          {
-            text: "代码混淆",
-            link: "/articles/obscure",
-          },
-          {
-            text: "docker部署",
-            link: "/articles/docker",
-          },
-        ],
-      },
-    ],
+    sidebar: {
+      "/articles/": [
+        {
+          text: "随笔杂想",
+          items: [
+            {
+              text: "飞书配置",
+              link: "/articles/feishu",
+            },
+          ],
+        },
+        {
+          text: "NodeJS教程",
+          items: [
+            {
+              text: "代码混淆",
+              link: "/articles/obscure",
+            },
+            {
+              text: "docker部署",
+              link: "/articles/docker",
+            },
+          ],
+        },
+      ],
+    },
   },
 };
