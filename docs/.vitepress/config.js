@@ -19,6 +19,10 @@ module.exports = {
         text: "Element",
         link: "/examples/button",
       },
+      {
+        text: "Three.js",
+        link: "/three/index",
+      },
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/roy2651" },
@@ -58,6 +62,17 @@ module.exports = {
             {
               text: "飞书配置",
               link: "/notes/feishu",
+            },
+          ],
+        },
+      ],
+      "/three/": [
+        {
+          text: "Three.js学习",
+          items: [
+            {
+              text: "基础",
+              link: "/three/index",
             },
           ],
         },
