@@ -21,7 +21,7 @@ module.exports = {
       },
       {
         text: "Three.js",
-        link: "/three/index",
+        link: "/threejs/first",
       },
     ],
     socialLinks: [
@@ -66,13 +66,13 @@ module.exports = {
           ],
         },
       ],
-      "/three/": [
+      "/threejs/": [
         {
           text: "Three.js学习",
           items: [
             {
               text: "基础",
-              link: "/three/index",
+              link: "/threejs/first",
             },
           ],
         },
