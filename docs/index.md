@@ -23,5 +23,5 @@ features:
   - icon: 🌲
     title: Three.JS学习
     details: 关于Three.JS的一些文章
-    link: /thressjs/first
+    link: /threejs/first
 ---
