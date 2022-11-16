@@ -7,12 +7,13 @@ module.exports = {
     logo: "/logo.png",
     nav: [
       { text: "首页", link: "/" },
-      { text: "飞书", link: "/notes/feishu" },
+      { text: "杂记", link: "/notes/feishu" },
       {
-        text: "Node",
+        text: "前端",
         items: [
           { text: "代码混淆", link: "/articles/obscure" },
           { text: "Docker部署", link: "/articles/docker" },
+          { text: "FullCalendar", link: "/articles/fullCalendar" },
         ],
       },
       {
@@ -43,14 +44,27 @@ module.exports = {
             },
           ],
         },
+        {
+          text: "VUE组件",
+          items: [
+            {
+              text: "FullCalendar",
+              link: "/articles/fullCalendar",
+            },
+          ],
+        },
       ],
       "/examples/": [
         {
           text: "组件",
           items: [
             {
-              text: "button",
+              text: "Button",
               link: "/examples/button",
+            },
+            {
+              text: "Calendar",
+              link: "/examples/calendar",
             },
           ],
         },
